@@ -7,12 +7,13 @@ public class TwoDimentionArray {
         int i;
         int j;
 
+        //output array
         for(i=0; i<Array.length; i++){
             for(j = 0; j<Array[i].length; j++){
-                System.out.print(Array[i]);
-                System.out.println();
-                System.out.print(Array[j]);
+                System.out.print(Array[i][j]+"  ");
             }
+            System.out.println();
         }
+
     }
 }
